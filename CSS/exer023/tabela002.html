@@ -8,6 +8,13 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+            border-radius: 20px 20px 0px 0px;
+        }
         table{
             width: 500px;
             border-collapse: collapse;
@@ -30,6 +37,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!--Anatomia para tabelas grandes
     table   
+        caption
         thead
             tr , tb , th
         tbody
@@ -37,6 +45,9 @@
         tfoot 
             tr , tb , th -->
     <table>
+       <caption>
+        População das unidadades Federativas
+       </caption>
         <thead> 
             <tr>
                 <th>Estado</th>
@@ -70,7 +81,7 @@
             </tr>
             <tr>
                 <td>Pernambuco</td>
-                <td class="num">9 058 155</td> class="num"
+                <td class="num">9 058 155</td> 
             </tr>
             <tr>
                 <td>Ceara</td>
@@ -157,8 +168,6 @@
             <tr>
                 <th>Total de Habitantes</th>
                 <td class="num"><strong>203 062 512</strong></td>
-
-
             </tr>
         </tfoot>
     </table>
